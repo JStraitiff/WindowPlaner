@@ -1,9 +1,9 @@
 Package: com.straitiff.windowplaner
 Name: Window Planer
 Depends: mobilesubstrate, preferenceloader
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
-Description: Rounds corners of the screen throughout iPhone OS. Corner radius can be edited via preferences app.
-Maintainer: Jstraitiff <straitiffjr@gmail.com>
-Author: JStraitiff
+Description: Rounds corners of the screen throughout iPhone OS. Corner radius can be edited live via preferences app.
+Maintainer: jstraitiff
+Author: JStraitiff <straitiffjr@gmail.com>
 Section: Tweaks

@@ -1,6 +1,7 @@
 Rounds corners of the screen throughout iPhone OS. Corner radius can be edited via preferences app.
 
-Theos/Logos is necessary for compilation and is included in package. Preferences Bundle will compile also using subprojects.
+Theos/Logos is necessary for compilation and is included in package. 
+Preferences Now update live thanks to rpetrich.
 
 after you compile run "make package" to create a .deb (assuming you have dpkg-deb installed.)
 

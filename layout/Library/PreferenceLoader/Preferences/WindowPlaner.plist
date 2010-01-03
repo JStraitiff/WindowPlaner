@@ -4,16 +4,91 @@
 <dict>
 	<key>entry</key>
 	<dict>
-		<key>bundle</key>
-		<string>WindowPlaner</string>
 		<key>cell</key>
 		<string>PSLinkCell</string>
 		<key>icon</key>
-		<string>Icon.png</string>
-		<key>isController</key>
-		<true/>
+		<string>/Library/WindowPlaner/Icon.png</string>
 		<key>label</key>
 		<string>WindowPlaner</string>
 	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Active</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>active</string>
+			<key>defaults</key>
+			<string>com.straitiff.windowplaner</string>
+			<key>PostNotification</key>
+			<string>com.straitiff.windowplaner.settingschange</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>min</key>
+			<integer>12</integer>
+			<key>max</key>
+			<integer>20</integer>
+			<key>showValue</key>
+			<true/>
+			<key>rightImage</key>
+			<string>/Library/WindowPlaner/radiusLarger.png</string>
+			<key>leftImage</key>
+			<string>/Library/WindowPlaner/radiusSmaller.png</string>
+			<key>key</key>
+			<string>size</string>
+			<key>defaults</key>
+			<string>com.straitiff.windowplaner</string>
+			<key>PostNotification</key>
+			<string>com.straitiff.windowplaner.settingschange</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Pre-Mode</string>
+			<key>enabled</key>
+			<false/>
+			<key>key</key>
+			<string>pre</string>
+			<key>defaults</key>
+			<string>com.straitiff.windowplaner</string>
+			<key>PostNotification</key>
+			<string>com.straitiff.windowplaner.settingschange</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Copyright 2009 Josh Straitiff</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Thanks to Dustin Howett, Lance Fetters, Optimo, Yanik Magnan, and Ryan Petrich</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WindowPlaner</string>
 </dict>
 </plist>
