@@ -1,3 +1,8 @@
+//
+//  Created by Josh Straitiff
+//  Licensed under GPL v3. http://www.gnu.org/licenses/gpl.html
+//
+
 #include <SpringBoard/SBRoundedCornerView.h>
 
 #define kSettingsChangeNotification "com.straitiff.windowplaner.settingschange"
