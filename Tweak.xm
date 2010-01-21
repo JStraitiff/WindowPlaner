@@ -1,6 +1,6 @@
 //
 //  Created by Josh Straitiff
-//  Licensed under GPL v3. http://www.gnu.org/licenses/gpl.html
+//  Copyright 2009 Josh Straitiff
 //
 
 #include <SpringBoard/SBRoundedCornerView.h>
