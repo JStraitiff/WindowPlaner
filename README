@@ -5,4 +5,4 @@ Preferences Now update live thanks to rpetrich.
 
 after you compile run "make package" to create a .deb (assuming you have dpkg-deb installed.)
 
-A HUGE thanks to Dustin Howett. and thanks to ashikase(lance fetters), optimo, sakurina(yanik magnan) and RPetrich (Ryan Petrich).
+A HUGE thanks to Dustin Howett (DHowett). and thanks to ashikase(lance fetters), optimo, sakurina(yanik magnan) and RPetrich (Ryan Petrich).
